@@ -11,7 +11,7 @@
 :root{
     --bg-color:  #171717;
     --text-color: rgb(255, 255, 255);
-    --main-color: #26847f;
+    --main-color: #ff0000;
     --second-color: rgb(255, 255, 255);
     --other-color: #12141c;
     --h1-font: 5.2rem;
@@ -264,7 +264,7 @@ header.sticky{
     
 }
 .box p span{
-    color: #ffd000;
+    color: #1500ff;
 } 
 .box:hover{
     transform: scale(1.01) translate(5px);
