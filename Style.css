@@ -176,7 +176,7 @@ header.sticky{
 }
 .about{
     display: grid;
-    background: #101010;
+    background: #000000;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
@@ -240,7 +240,7 @@ header.sticky{
     margin-top: 5rem;
 }
 .services{
-    background: #212121;
+    background-image: url("");
     
 }
 .box{
