@@ -211,10 +211,10 @@ header.sticky{
     font-weight: 500;
 }
 .about-img img{
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
-    width: 80%;
-    border-radius: 16px;
+    width: 70%;
+    border-radius: 50px;
 }
 .main-text{
     text-align: center;
