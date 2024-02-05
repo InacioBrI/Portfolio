@@ -9,13 +9,15 @@
 }
 
 :root{
-    --bg-color:  #171717;
-    --text-color: rgb(255, 255, 255);
+    --bg-color:  #d1d1d1;
+    --text-color: rgb(23, 23, 23);
     --main-color: #ff0000;
     --second-color: rgb(255, 255, 255);
     --other-color: #12141c;
     --h1-font: 5.2rem;
     --p-font:1.1rem;
+    --h2-font: white;
+    --p-font: white;
 }
 body{
     background: var(--bg-color);
@@ -112,7 +114,7 @@ section{
     height: 32px;
     padding: 0 15px;
     line-height: 32px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     border-radius: 5px;
     background: var(--main-color);
@@ -121,7 +123,7 @@ section{
 .two{
     display: inline-block;
     color: var(--second-color);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 .home-text h1{
@@ -176,14 +178,14 @@ header.sticky{
 }
 .about{
     display: grid;
-    background: #000000;
+    background: #1b1b1b;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
 }
 .about-text h4{
     margin: 10px 0;
-    color: var(--main-color);
+    color: white;
     font-size: 20px;
     font-weight: 600;
 }
@@ -209,6 +211,7 @@ header.sticky{
 .about-in- h5{
     font-size: 20px;
     font-weight: 500;
+    color: white;
 }
 .about-img img{
     max-width: 500px;
@@ -221,7 +224,7 @@ header.sticky{
 }
 .main-text h2{
     font-size: 30px;
-    color: #ffffff;
+    color: #161616;
     margin-bottom: 5px;
     font-weight: 600;
 }
@@ -329,7 +332,7 @@ header.sticky{
     font-size: 18px;
     border-radius: 0.5rem;
     border: none;
-    background: #ffffff;
+    background: #0d0d0d;
     color: var(--bg-color);
     margin: 50px;
     top: 50%;
@@ -387,7 +390,7 @@ header.sticky{
 }
 
 .contact{
-    background: #1d1d1d;
+    background: #373737;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -492,6 +495,7 @@ form textarea{
 .last-text p{
     color: var(--second-color);
     font-size: 14px;
+    color: #01050f;
 }
 .top i{
     padding: 10px;
