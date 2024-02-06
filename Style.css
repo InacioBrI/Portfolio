@@ -9,15 +9,15 @@
 }
 
 :root{
-    --bg-color:  #d1d1d1;
-    --text-color: rgb(23, 23, 23);
+    --bg-color:  #ffffff;
+    --text-color: rgb(0, 0, 0);
     --main-color: #ff0000;
-    --second-color: rgb(255, 255, 255);
-    --other-color: #12141c;
+    --second-color: rgb(0, 0, 0);
+    --other-color: #ffffff;
     --h1-font: 5.2rem;
     --p-font:1.1rem;
-    --h2-font: white;
-    --p-font: white;
+    --h2-font: rgb(255, 255, 255);
+    --p-font: rgb(255, 255, 255);
 }
 body{
     background: var(--bg-color);
@@ -25,15 +25,15 @@ body{
 }
 header{
     position: fixed;
-    width: 95%;
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 22px 15px;
+    background-color: white;
+    padding: 20px 20px;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
 }
@@ -41,6 +41,7 @@ header{
     color: var(--text-color);
     font-size: 35px;
     font-weight: 500;
+    padding: 10px;
     letter-spacing: 1px;
 }
 span{
@@ -118,12 +119,12 @@ section{
     font-weight: 500;
     border-radius: 5px;
     background: var(--main-color);
-    color: var(--text-color);
+    color: white;
 }
 .two{
     display: inline-block;
     color: var(--second-color);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 .home-text h1{
@@ -191,12 +192,12 @@ header.sticky{
 }
 .about-text h2{
     font-size: 30px;
-    color: var(--h2-font);
+    color: white;
     font-weight: 600;
     margin: 10px 0;
 }
 .about-text p{
-    color: var(--second-color);
+    color: white;
     font-size: var(--p-font);
     line-height: 30px;
     margin-bottom: 2rem;
@@ -211,7 +212,7 @@ header.sticky{
 .about-in- h5{
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .about-img img{
     max-width: 500px;
@@ -221,9 +222,10 @@ header.sticky{
 }
 .main-text{
     text-align: center;
+    color: white;
 }
 .main-text h2{
-    font-size: 30px;
+    font-size: 40px;
     color: #161616;
     margin-bottom: 5px;
     font-weight: 600;
@@ -291,6 +293,7 @@ header.sticky{
     font-size: 24px;
     font-weight: 600;
     margin: 40px 0;
+    background-color: #01050f;
 }
 .row{
     position: relative;
@@ -332,8 +335,8 @@ header.sticky{
     font-size: 18px;
     border-radius: 0.5rem;
     border: none;
-    background: #0d0d0d;
-    color: var(--bg-color);
+    background: #ffffff;
+    color: black;
     margin: 50px;
     top: 50%;
     left: 45%;
@@ -390,14 +393,15 @@ header.sticky{
 }
 
 .contact{
-    background: #373737;
+    background: #313131;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-top: -80px;
     gap: 1.5rem;
 }
 .contact-text h4{
-    color: var(--text-color);
+    color: white;
     margin: 20px 0px;
     top: 50%;
     font-size: 25px;
@@ -407,6 +411,9 @@ header.sticky{
     font-size: var(--main-color);
     line-height: 3;
     font-size: 45px;
+}
+.contact-text{
+    color: white;
 }
 .contact-text p{
     color: var(--text-color);
@@ -435,7 +442,7 @@ header.sticky{
 .contact-icons i{
     height: 45px;
     width: 45px;
-    background: var(--main-color);
+    background: white;
     color: var(--text-color);
     font-size: 22px;
     display: inline-flex;
@@ -457,8 +464,8 @@ header.sticky{
 form textarea{
     width: 100%;
     padding: 14px;
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: black;
+    color: white;
     border: none;
     outline: none;
     font-size: 15px;
@@ -473,14 +480,16 @@ form textarea{
 .contact-form .submit{
     display: inline-block;
     font-size: 16px;
-    background: var(--main-color);
-    color: var(--text-color);
+    background: white;
+    color: black;
     width: 200px;
-    transition: all .45s ease;
+    transition: all .45s ease; 
 }
 .contact-form .submit:hover{
     transform: scale(1.1);
     cursor: pointer;
+    background-color: black;
+    color: var(--main-color);
 }
 
 .Fim{
@@ -501,8 +510,12 @@ form textarea{
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
-    color: var(--text-color);
+    color: white;
     background: var(--main-color);
+}
+.top :hover{
+    color: black;
+    transform: translateY(-5px), translateX(2px), translate();
 }
 
 
