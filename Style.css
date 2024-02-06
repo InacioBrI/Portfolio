@@ -16,7 +16,7 @@
     --other-color: #ffffff;
     --h1-font: 5.2rem;
     --p-font:1.1rem;
-    --h2-font: rgb(255, 255, 255);
+    --h2-font: rgb(0, 0, 0);
     --p-font: rgb(255, 255, 255);
 }
 body{
@@ -289,11 +289,14 @@ header.sticky{
     gap: 2.5rem;
     margin-top: 5rem;
 }
+.Projects .h1 .h4 {
+    color: black;
+}
 .Projects{
     font-size: 24px;
     font-weight: 600;
     margin: 40px 0;
-    background-color: #01050f;
+    background-color: #1B1B1B;
 }
 .row{
     position: relative;
@@ -515,7 +518,7 @@ form textarea{
 }
 .top :hover{
     color: black;
-    transform: translateY(-5px), translateX(2px), translate();
+    transform: translateY(-5px), translateX(2px);
 }
 
 
