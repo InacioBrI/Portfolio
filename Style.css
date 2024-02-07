@@ -14,9 +14,9 @@
     --main-color: #ff0000;
     --second-color: rgb(0, 0, 0);
     --other-color: #ffffff;
-    --h1-font: 5.2rem;
+    --h1-font: 5.2rem ;
     --p-font:1.1rem;
-    --h2-font: rgb(0, 0, 0);
+    --h2-font: rgb(255, 255, 255);
     --p-font: rgb(255, 255, 255);
 }
 body{
@@ -119,7 +119,7 @@ section{
     font-weight: 500;
     border-radius: 5px;
     background: var(--main-color);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .two{
     display: inline-block;
@@ -289,7 +289,7 @@ header.sticky{
     gap: 2.5rem;
     margin-top: 5rem;
 }
-.Projects .h1 .h4 {
+.Projects .h1{
     color: black;
 }
 .Projects{
@@ -325,6 +325,9 @@ header.sticky{
 }
 .projetos{
     display: none;
+}
+.projetos h1{
+    color: black;
 }
 .projetos{
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
